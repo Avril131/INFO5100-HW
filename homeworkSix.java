@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.Duration;
 
-public class homeworkSix {
+public class HomeworkSix {
     public static void main(String[] args) {
 
         
