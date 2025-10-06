@@ -30,7 +30,7 @@ public class homeworkSix {
             wordType = "long";
         }
         
-        // 输出结果
+        // Output
         System.out.println("Your word is " + word);
         System.out.println("It is a " + wordType + " word");
         System.out.println("The length of the word is " + wordLength);
