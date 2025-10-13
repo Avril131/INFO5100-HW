@@ -31,7 +31,7 @@ public class HomeworkSeven {
                 result[i][j] = sum;
             }
         }
-        
+
         // Output the result
         System.out.println("\nThe result of matrix A*B:");
         for (int i = 0; i < rowsA; i++) {

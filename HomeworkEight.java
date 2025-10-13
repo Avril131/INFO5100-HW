@@ -2,7 +2,9 @@ public class HomeworkEight {
 
     // get the inversed array of the input array
     public static String[] getInversed(String[] words) {
+
         String[] inversed = new String[words.length];
+        
         for (int i = 0; i < words.length; i++) {
             inversed[i] = getBackward(words[words.length - 1 - i]);
         }
@@ -12,13 +14,17 @@ public class HomeworkEight {
     // get the backward string of the input string
     public static String getBackward(String str) {
         String backward = "";
-        for (int i = str.length() - 1; i >= 0; i--) {
-            if (i == str.length() - 1) {
-                backward += str.substring(i, i+1).toUpperCase();
+
+        for (int position = str.length() - 1; position >= 0; position--) {
+
+            if (position == str.length() - 1) {
+                backward += str.substring(position, position+1).toUpperCase();
             } else {
-                backward += str.substring(i, i+1).toLowerCase();
+                backward += str.substring(position, position+1).toLowerCase();
             }
+
         }
+        
         return backward;
     }
 
